@@ -8,22 +8,18 @@ namespace Majidian\Disableprice\Ui\DataProvider\Product\Form\Modifier;
 
 use Magento\Catalog\Model\Locator\LocatorInterface;
 use Magento\Framework\App\Config\ScopeConfigInterface;
-use Magento\Catalog\Api\ProductLinkRepositoryInterface;
 
 class Price extends \Magento\Catalog\Ui\DataProvider\Product\Form\Modifier\AbstractModifier
 {
     protected $locator;
     protected $scopeConfig;
-    protected $productLinkRepository;
 
     public function __construct(
         LocatorInterface $locator,
-        ScopeConfigInterface $scopeConfig,
-        ProductLinkRepositoryInterface $productLinkRepository
+        ScopeConfigInterface $scopeConfig
     ) {
         $this->locator = $locator;
         $this->scopeConfig = $scopeConfig;
-        $this->productLinkRepository = $productLinkRepository;
     }
 
     public function modifyMeta(array $meta)
