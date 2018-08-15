@@ -3,7 +3,6 @@
     <virtualType name="Magento\Catalog\Ui\DataProvider\Product\Form\Modifier\Pool">
         <arguments>
             <argument name="modifiers" xsi:type="array">
-
                 <item name="price" xsi:type="array">
                     <item name="class" xsi:type="string">Majidian\Disableprice\Ui\DataProvider\Product\Form\Modifier\Price</item>
                     <item name="sortOrder" xsi:type="number">10</item>

@@ -7,8 +7,7 @@
             <group id="disableprice" translate="label" type="text" sortOrder="99" showInDefault="1" showInWebsite="1"
                    showInStore="1">
                 <label>Majidian Disable Price</label>
-                <field id="attributes" translate="label" type="multiselect" sortOrder="1" showInDefault="1"
-                       showInWebsite="1" showInStore="0">
+                <field id="attributes" translate="label" type="multiselect" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Disable price for following attribute sets</label>
                     <source_model>Magento\Catalog\Model\Product\AttributeSet\Options</source_model>
                     <can_be_empty>1</can_be_empty>
