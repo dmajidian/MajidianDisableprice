@@ -3,7 +3,6 @@
  * Price Field Modifier Class
  * Auth: David Majidian
  * Date: 8/14/2018
- * Time: 5:57 PM
  */
 namespace Majidian\Disableprice\Ui\DataProvider\Product\Form\Modifier;
 
@@ -15,7 +14,6 @@ class Price extends \Magento\Catalog\Ui\DataProvider\Product\Form\Modifier\Abstr
 {
     protected $locator;
     protected $scopeConfig;
-    protected $attributeSetCollectionFactory;
     protected $productLinkRepository;
 
     public function __construct(
