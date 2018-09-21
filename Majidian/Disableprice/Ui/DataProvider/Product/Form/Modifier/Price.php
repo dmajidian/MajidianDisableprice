@@ -49,6 +49,8 @@ class Price extends \Magento\Catalog\Ui\DataProvider\Product\Form\Modifier\Abstr
 
     protected function customizePrice(array $meta)
     {
+        
+        //User ArrayAccess here ....but I was too lazy in this demo
         $meta['product-details']['children']['container_price']['children']['price']['arguments']['data']['config']['default'] = 0.00;
         $meta['product-details']['children']['container_price']['children']['price']['arguments']['data']['config']['visible'] = 0;
         $meta['product-details']['children']['container_tax_class_id']['children']['tax_class_id']['arguments']['data']['config']['visible'] = 0;
